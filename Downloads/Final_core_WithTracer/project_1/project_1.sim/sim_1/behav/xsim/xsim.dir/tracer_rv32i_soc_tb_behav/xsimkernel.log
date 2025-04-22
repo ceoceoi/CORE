@@ -1,0 +1,7 @@
+Running: xsim.dir/tracer_rv32i_soc_tb_behav/xsimk -simmode gui -wdb tracer_rv32i_soc_tb_behav.wdb -simrunnum 0 -socket 46777
+Design successfully loaded
+Design Loading Memory Usage: 36444 KB (Peak: 36444 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 131440 KB (Peak: 175712 KB)
+Simulation CPU Usage: 90 ms

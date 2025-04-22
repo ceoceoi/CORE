@@ -1,0 +1,235 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+time:                   10
+====================================
+time:                   30
+====================================
+time:                   50
+====================================
+time:                   70
+====================================
+time:                   90
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff000 
+====================================
+time:                  110
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=41800000  --F= 1 --pc = fffff000 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff004 
+====================================
+tracer_rv32i_soc_tb.tracer_inst.printbuffer_dumpline: Writing execution trace to /home/it/llogtracer/trace_core_00000001.log
+time:                  130
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=41800000  --F= 1 --pc = fffff004 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff008 
+====================================
+time:                  150
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=42040000  --F= 1 --pc = fffff008 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff00c 
+====================================
+time:                  170
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=42040000  --F= 1 --pc = fffff00c 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff010 
+====================================
+time:                  190
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=3f800000  --F= 1 --pc = fffff010 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff014 
+====================================
+time:                  210
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=3f800000  --F= 1 --pc = fffff014 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff018 
+====================================
+time:                  230
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=40000000  --F= 1 --pc = fffff018 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff01c 
+====================================
+time:                  250
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=40000000  --F= 1 --pc = fffff01c 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  270
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff020 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =41800000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff024 
+====================================
+time:                  290
+ element           0: operation = ADD --rs1 =00000000  --rs2 =41800000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff024 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =42040000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff028 
+====================================
+time:                  310
+ element           0: operation = ADD --rs1 =00000000  --rs2 =42040000  --rs3=00000000 --result=00000004  --F= 1 --pc = fffff028 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =3f800000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff02c 
+====================================
+time:                  330
+ element           0: operation = ADD --rs1 =00000000  --rs2 =3f800000  --rs3=00000000 --result=00000008  --F= 1 --pc = fffff02c 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =40000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff030 
+====================================
+time:                  350
+ element           0: operation = ADD --rs1 =00000000  --rs2 =40000000  --rs3=00000000 --result=0000000c  --F= 1 --pc = fffff030 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff034 
+====================================
+time:                  370
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff034 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff038 
+====================================
+time:                  390
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff038 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff03c 
+====================================
+time:                  410
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff03c 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff040 
+====================================
+time:                  430
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff040 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff044 
+====================================
+time:                  450
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000004  --F= 1 --pc = fffff044 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff048 
+====================================
+time:                  470
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000008  --F= 1 --pc = fffff048 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =3f800000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff04c 
+====================================
+time:                  490
+ element           0: operation = ADD --rs1 =00000000  --rs2 =3f800000  --rs3=00000000 --result=0000000c  --F= 1 --pc = fffff04c 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff050 
+====================================
+time:                  510
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff050 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff054 
+====================================
+time:                  530
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff054 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff058 
+====================================
+time:                  550
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff058 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+====================================
+time:                  570
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+====================================
+time:                  590
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+====================================
+time:                  610
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  630
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  650
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  670
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  690
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  710
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  730
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  750
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  770
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  790
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  810
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  830
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  850
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  870
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  890
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  910
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  930
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  950
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  970
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================
+time:                  990
+ element           0: operation = FDIV --rs1 =41800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff05c 
+ element           1: operation = FDIV --rs1 =41800000  --rs2 =3f800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff060 
+ element           2: operation = FDIV --rs1 =3f800000  --rs2 =40000000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff064 
+ element           3: operation = FDIV --rs1 =42040000  --rs2 =41800000  --rs3=3f800000 --result=00000000  --F= 0 --pc = fffff068 
+====================================

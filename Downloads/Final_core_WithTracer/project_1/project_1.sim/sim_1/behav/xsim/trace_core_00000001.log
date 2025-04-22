@@ -1,0 +1,28 @@
+		Time			Cycle	PC		Insn	Decoded instruction	Register and memory contents
+              130000	         5	fffff000	41800537	lui	x10,0x41800	 x10=0x41800000
+              150000	         6	fffff004	00050513	addi	x10,x10,0	 x10:0x00000000 x10=0x41800000
+              170000	         7	fffff008	420405b7	lui	x11,0x42040	 x11=0x42040000
+              190000	         8	fffff00c	00058593	addi	x11,x11,0	 x11:0x00000000 x11=0x42040000
+              210000	         9	fffff010	3f800637	lui	x12,0x3f800	 x12=0x3f800000
+              230000	        10	fffff014	00060613	addi	x12,x12,0	 x12:0x00000000 x12=0x3f800000
+              250000	        11	fffff018	400006b7	lui	x13,0x40000	 x13=0x40000000
+              270000	        12	fffff01c	00068693	addi	x13,x13,0	 x13:0x00000000 x13=0x40000000
+              290000	        13	fffff020	00000013	addi	x0,x0,0	  x0:0x00000000
+              310000	        14	fffff024	00a02023	sw	x10,0(x0)	  x0:0x00000000 x10:0x41800000 PA:0xxxxxxxxx
+              330000	        15	fffff028	00b02223	sw	x11,4(x0)	  x0:0x00000000 x11:0x42040000 PA:0xxxxxxxxx
+              350000	        16	fffff02c	00c02423	sw	x12,8(x0)	  x0:0x00000000 x12:0x3f800000 PA:0xxxxxxxxx
+              370000	        17	fffff030	00d02623	sw	x13,12(x0)	  x0:0x00000000 x13:0x40000000 PA:0xxxxxxxxx
+              390000	        18	fffff034	00000013	addi	x0,x0,0	  x0:0x00000000
+              410000	        19	fffff038	00000013	addi	x0,x0,0	  x0:0x00000000
+              430000	        20	fffff03c	00000013	addi	x0,x0,0	  x0:0x00000000
+              450000	        21	fffff040	00002087	lw	f1,0(x0)	  x0:0x00000000  f1=0x00000000 PA:0xxxxxxxxx
+              470000	        22	fffff044	00402107	lw	f2,4(x0)	  x0:0x00000000  f2=0x00000004 PA:0xxxxxxxxx
+              490000	        23	fffff048	00802187	lw	f3,8(x0)	  x0:0x00000000  f3=0x00000008 PA:0xxxxxxxxx
+              510000	        24	fffff04c	00c02207	lw	f4,12(x0)	  x0:0x00000000  f4=0x0000000c PA:0xxxxxxxxx
+              530000	        25	fffff050	00000013	addi	x0,x0,0	  x0:0x00000000
+              550000	        26	fffff054	00000013	addi	x0,x0,0	  x0:0x00000000
+              570000	        27	fffff058	00000013	addi	x0,x0,0	  x0:0x00000000
+             1090000	        53	fffff05c	184082d3	fdiv.s	f5,f1,f4	  f1:0x41800000  f4:0x40000000  f5=0x40ffff36
+             1110000	        54	fffff060	18308353	fdiv.s	f6,f1,f3	  f1:0x41800000  f3:0x3f800000  f6=0x417fff36
+             1130000	        55	fffff064	184183d3	fdiv.s	f7,f3,f4	  f3:0x3f800000  f4:0x40000000  f7=0x3effff36
+             1150000	        56	fffff068	18110453	fdiv.s	f8,f2,f1	  f2:0x42040000  f1:0x41800000  f8=0x4003ff98

@@ -1,0 +1,70 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart" --include "../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/gpio" --include "../../../../Core_with_tracker.srcs/sources_1/imports/src/sram/csrc" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/raminfr.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_receiver.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_regs.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_rfifo.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_sync_flops.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_tfifo.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_top.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_transmitter.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart/uart_wb.v" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/WishboneInterconnect/wb_intercon_1.2.2-r1/wb_mux.v" \
+
+sv xil_defaultlib  --include "../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/uart" --include "../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/gpio" --include "../../../../Core_with_tracker.srcs/sources_1/imports/src/sram/csrc" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/lib.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/FP_add_sub_top.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/raw_waw_units/FP_busy_registers.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/FP_converter.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/FP_final_multiplier.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/red_team/priority_units/P_Decoder.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/R4_unit.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/Register.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/add_sub_FP.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/alignment_units.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/alu.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/alu_control.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/gpio/bidirec.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/branch_controller.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/raw_waw_units/busy_registers.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/raw_waw_units/clear_units_decoder.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/control_unit.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/data_mem.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/data_path.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/extract_align_FP.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/float2int.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/float2ints.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/forwarding_unit.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/fp_sqrt_Multicycle.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fpu.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/uncore/gpio/gpio_top.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/hazard_controller.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/imm_gen.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/int2float.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/int2floats.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/red_team/int_units/int_div_rem.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/new/int_mul.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/main_control.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/normalize_FP.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/pipeline_controller.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/red_team/priority_units/priority_controller.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/red_team/priority_units/priority_mux.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/program_counter.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/reg_file.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/rom.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/round_FP.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/rv32i_soc.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/rv32i_top.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/Downloads/rvfi_tracker.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/core/green_team/raw_waw_units/value_capture.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/WishboneInterconnect/wb_intercon.sv" \
+"../../../../Core_with_tracker.srcs/sources_1/imports/src/soc/WishboneInterconnect/wishbone_controller.sv" \
+"../../../../Core_with_tracker.srcs/sim_1/imports/tapeout_project_w1_done/tapeout_project_w1_done.srcs/sources_1/imports/src/tb/rv32i_soc_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

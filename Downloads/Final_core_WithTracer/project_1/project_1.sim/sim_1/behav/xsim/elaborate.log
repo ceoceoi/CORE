@@ -1,0 +1,195 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/it/Desktop/vivado/Vivado_2019_setup/Xilinx/Vivado/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 1a7e8d0b912c4c44954b37280ebf4334 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tracer_rv32i_soc_tb_behav xil_defaultlib.tracer_rv32i_soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clear' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:246]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:254]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:255]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:256]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:331]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:332]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:333]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 3 for port 'clear' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:342]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:351]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:352]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:354]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:429]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:430]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:431]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:451]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:452]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:453]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:554]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'clear' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/fp_sqrt_Multicycle.sv:182]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/R4_unit.sv:134]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data_o' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/R4_unit.sv:135]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/R4_unit.sv:147]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'data_o' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/R4_unit.sv:148]
+WARNING: [VRFC 10-3091] actual bit length 35 differs from formal bit length 34 for port 'all_uu_FP_rd_busy' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/data_path.sv:971]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 'wb_io_cti_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/src/soc/rv32i_soc.sv:247]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 2 for port 'wb_io_bte_i' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/src/soc/rv32i_soc.sv:248]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clear' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:321]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clear' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:365]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clear' [/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv:419]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/lib.sv" Line 1. Module $unit_lib_sv has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/Tracer/tracer_pkg.sv" Line 6. Module tracer_pkg has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/Tracer/pkg.sv" Line 6. Module pkg has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/Tracer/tracer_rv32i_soc_tb .sv" Line 5. Module tracer_rv32i_soc_tb has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/src/soc/rv32i_soc.sv" Line 1. Module rv32i_soc(DMEM_DEPTH=512,IMEM_DEPTH=512) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/rv32i_top.sv" Line 4. Module rv32i has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/data_path.sv" Line 3. Module data_path has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/program_counter.sv" Line 1. Module program_counter has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/reg_file.sv" Line 1. Module reg_file has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/reg_file.sv" Line 1. Module reg_file has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/imm_gen.sv" Line 1. Module imm_gen has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/raw_waw_units/value_capture.sv" Line 3. Module value_capture has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/alu.sv" Line 3. Module alu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/alu.sv" Line 44. Module n_bit_add_sub has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fpu.sv" Line 4. Module fpu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/FP_converter.sv" Line 3. Module FP_converter has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/float2ints.sv" Line 1. Module float2ints has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/float2int.sv" Line 1. Module float2int has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/int2floats.sv" Line 1. Module int2floats has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fpu_units/fcvt/int2float.sv" Line 1. Module int2float has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/int_units/int_div_rem.sv" Line 4. Module int_div_rem_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/new/int_mul.sv" Line 3. Module int_mul has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/extract_align_FP.sv" Line 23. Module extract_align_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/add_sub_FP.sv" Line 23. Module add_sub_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/normalize_FP.sv" Line 23. Module normalize_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/round_FP.sv" Line 23. Module round_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/fp_sqrt_Multicycle.sv" Line 5. Module fp_sqrt_Multicycle has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/Register.sv" Line 3. Module Register has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/Register.sv" Line 3. Module Register has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/Register.sv" Line 3. Module Register has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/Register.sv" Line 3. Module Register(bits=151) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/block_sqrt/Register.sv" Line 3. Module Register(bits=151) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/fdiv.sv" Line 3. Module fdiv(num_delay=25) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=1,delay=25) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 100. Module n_bit_delayer_pipeline_signals(n=151,delay=25) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=1,delay=20) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=20) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/FP_final_multiplier.sv" Line 3. Module FP_final_Multiplier has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/extract_align_FP.sv" Line 23. Module extract_align_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/add_sub_FP.sv" Line 23. Module add_sub_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/normalize_FP.sv" Line 23. Module normalize_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/green_team/fadd_sub_modules/round_FP.sv" Line 23. Module round_FP has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/core/red_team/FP_units/FP_final_multiplier.sv" Line 3. Module FP_final_Multiplier has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/new_core_with_tracker.srcs/sources_1/imports/project_approved/n_bit_delayer.sv" Line 24. Module n_bit_delayer(n=32,delay=5) has a timescale but at least one module in design doesn't have timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4100' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.riscv_types
+Compiling package xil_defaultlib.$unit_lib_sv
+Compiling package xil_defaultlib.tracer_pkg
+Compiling package xil_defaultlib.pkg
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.mux2x1(n=32)
+Compiling module xil_defaultlib.n_bit_reg(n=1)
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=64)
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=32,CLR_VALUE=32...
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=96)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.one_hot_mux2x1
+Compiling module xil_defaultlib.one_hot_mux2x1(n=4)
+Compiling module xil_defaultlib.mux2x1(n=8)
+Compiling module xil_defaultlib.mux2x1(n=11)
+Compiling module xil_defaultlib.one_hot_mux3x1
+Compiling module xil_defaultlib.imm_gen
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=243)
+Compiling module xil_defaultlib.n_bit_reg(n=32)
+Compiling module xil_defaultlib.n_bit_reg(n=2)
+Compiling module xil_defaultlib.value_capture
+Compiling module xil_defaultlib.mux3x1
+Compiling module xil_defaultlib.n_bit_add_sub
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.float2ints
+Compiling module xil_defaultlib.float2int
+Compiling module xil_defaultlib.int2floats
+Compiling module xil_defaultlib.int2float
+Compiling module xil_defaultlib.FP_converter
+Compiling module xil_defaultlib.fpu
+Compiling module xil_defaultlib.int_div_rem_default
+Compiling module xil_defaultlib.int_mul
+Compiling module xil_defaultlib.extract_align_FP
+Compiling module xil_defaultlib.add_sub_FP
+Compiling module xil_defaultlib.normalize_FP
+Compiling module xil_defaultlib.round_FP
+Compiling module xil_defaultlib.FP_add_sub
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Register(bits=151)
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=1)
+Compiling module xil_defaultlib.n_bit_delayer(n=1,delay=25)
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=151)
+Compiling module xil_defaultlib.n_bit_delayer_pipeline_signals(n...
+Compiling module xil_defaultlib.n_bit_delayer(n=1,delay=20)
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=32)
+Compiling module xil_defaultlib.n_bit_delayer(n=32,delay=20)
+Compiling module xil_defaultlib.FP_final_Multiplier
+Compiling module xil_defaultlib.n_bit_delayer(n=32,delay=5)
+Compiling module xil_defaultlib.n_bit_delayer(n=32,delay=2)
+Compiling module xil_defaultlib.fdiv(num_delay=25)
+Compiling module xil_defaultlib.fp_sqrt_Multicycle
+Compiling module xil_defaultlib.R4_Unit
+Compiling module xil_defaultlib.priority_mux
+Compiling module xil_defaultlib.n_bits_decoder
+Compiling module xil_defaultlib.d_flip_flop_wclr
+Compiling module xil_defaultlib.busy_registers_default
+Compiling module xil_defaultlib.FP_busy_registers(num_rds=35)
+Compiling module xil_defaultlib.clear_units_decoder(num_rds=36)
+Compiling module xil_defaultlib.rvfi_tracker_delay
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=181)
+Compiling module xil_defaultlib.one_hot_mux3x1(n=32)
+Compiling module xil_defaultlib.n_bit_reg_wclr(n=40)
+Compiling module xil_defaultlib.data_path
+Compiling module xil_defaultlib.decode_control
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.branch_controller
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.hazard_handler
+Compiling module xil_defaultlib.pipeline_controller
+Compiling module xil_defaultlib.P_Decoder
+Compiling module xil_defaultlib.priority_controller
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32i
+Compiling module xil_defaultlib.n_bit_dec
+Compiling module xil_defaultlib.one_hot_mux2x1(n=5)
+Compiling module xil_defaultlib.n_bit_dec(n=1)
+Compiling module xil_defaultlib.one_hot_mux3x1(n=4)
+Compiling module xil_defaultlib.store_aligner
+Compiling module xil_defaultlib.n_bit_reg(n=5)
+Compiling module xil_defaultlib.mux4x1(n=8)
+Compiling module xil_defaultlib.mux2x1(n=24)
+Compiling module xil_defaultlib.mux2x1(n=16)
+Compiling module xil_defaultlib.mux4x1(n=32)
+Compiling module xil_defaultlib.load_aligner
+Compiling module xil_defaultlib.wishbone_controller
+Compiling module xil_defaultlib.wb_mux(num_slaves=5,MATCH_ADDR=1...
+Compiling module xil_defaultlib.wb_intercon
+Compiling module xil_defaultlib.bidirec
+Compiling module xil_defaultlib.gpio_top
+Compiling module xil_defaultlib.uart_wb
+Compiling module xil_defaultlib.raminfr
+Compiling module xil_defaultlib.uart_tfifo
+Compiling module xil_defaultlib.uart_transmitter
+Compiling module xil_defaultlib.uart_sync_flops(width=1,init_val...
+Compiling module xil_defaultlib.uart_rfifo(fifo_width=11)
+Compiling module xil_defaultlib.uart_receiver
+Compiling module xil_defaultlib.uart_regs
+Compiling module xil_defaultlib.uart_top
+Compiling module xil_defaultlib.data_mem(DEPTH=512)
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.rv32i_soc(DMEM_DEPTH=512,IMEM_DE...
+Compiling module xil_defaultlib.tracer
+WARNING: [XSIM 43-3373] "/home/it/Downloads/Final_core_WithTracer/new_core_with_tracker/Tracer/tracer.sv" Line 146. System function $value$plusargs is used as system task. This system function should have a LHS e.g. x=$value$plusargs().
+Compiling module xil_defaultlib.tracer_rv32i_soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tracer_rv32i_soc_tb_behav

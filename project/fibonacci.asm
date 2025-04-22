@@ -1,0 +1,9 @@
+RA = imm
+RB = imm
+R0 = RA
+RA = RA + RB
+RA = RA - RB
+RB = RA + RB
+RB = RA - RB
+JC = imm
+J = imm

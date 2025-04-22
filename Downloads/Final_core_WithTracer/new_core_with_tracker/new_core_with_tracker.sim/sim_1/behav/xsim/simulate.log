@@ -1,0 +1,114 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+WARNING: File /home/it/Documents/rvsoc_v3/src/tb/uart_receiver/machine.hex referenced on /home/it/Downloads/Core_with_tracker/Core_with_tracker.srcs/sim_1/imports/tapeout_project_w1_done/tapeout_project_w1_done.srcs/sources_1/imports/src/tb/rv32i_soc_tb.sv at line 39 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+time:                   10
+====================================
+time:                   30
+====================================
+time:                   50
+====================================
+time:                   70
+====================================
+time:                   90
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff000 
+====================================
+time:                  110
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=40491000  --F= 1 --pc = fffff000 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff004 
+====================================
+time:                  130
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=40490fdb  --F= 1 --pc = fffff004 
+ element           1: operation = FMVWX --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff008 
+====================================
+time:                  150
+ element           0: operation = FMVWX --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=40490fdb  --F= 1 --pc = fffff008 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff00c 
+====================================
+time:                  170
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=402e0000  --F= 1 --pc = fffff00c 
+ element           1: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff010 
+====================================
+time:                  190
+ element           0: operation = ADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=402df854  --F= 1 --pc = fffff010 
+ element           1: operation = FMVWX --rs1 =00000000  --rs2 =40490fdb  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff014 
+====================================
+time:                  210
+ element           0: operation = FMVWX --rs1 =00000000  --rs2 =40490fdb  --rs3=00000000 --result=402df854  --F= 1 --pc = fffff014 
+ element           1: operation = FADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff018 
+====================================
+time:                  230
+ element           0: operation = FADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff018 
+ element           1: operation = FMUL --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff01c 
+====================================
+time:                  250
+ element           0: operation = FADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff018 
+ element           1: operation = FMUL --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff01c 
+ element           2: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  270
+ element           0: operation = FADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff018 
+ element           1: operation = FMUL --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff01c 
+ element           2: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  290
+ element           0: operation = FADD --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=402df854  --F= 1 --pc = fffff018 
+ element           1: operation = FMUL --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff01c 
+ element           2: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  310
+ element           0: operation = FMUL --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 1 --pc = fffff01c 
+ element           1: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  330
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  350
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  370
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  390
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  410
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  430
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  450
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  470
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  490
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  510
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  530
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  550
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  570
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  590
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  610
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  630
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  650
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
+====================================
+time:                  670
+ element           0: operation = FDIV --rs1 =00000000  --rs2 =00000000  --rs3=00000000 --result=00000000  --F= 0 --pc = fffff020 
